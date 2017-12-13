@@ -17,10 +17,13 @@ Further the python library should include:
  This library work as standalone in in three modes:
  
 1. Denoise+Align to ref+place on SILVA tree+ Name read. input are file *.fastq pairends with illumina naming convention
-    python3 PanPipe.py FULL
+    
+  python3 PanPipe.py FULL
+    
 2. Denoise only (trim+demultiplicate+cluster+filter singleton+group across sample) 
   
   python3 PanPipe.py DENOISE
 
 3. Give a name based on NCBI taxonomy and a given jplace file based on the SILVA tree distributed with library.
+  
   python3 PanPipe.py NAME jplacefilename
