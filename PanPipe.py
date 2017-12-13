@@ -25,7 +25,7 @@ class Assigner:
     e = "0.1"
     Zero = "1"
     # param for vsearch
-    merge_exec = '/home/saverio/Scaricati/vsearch-2.6.0/bin/vsearch'
+    merge_exec = 'vsearch'
     nosingle_exec = cluster_exec = derep_exec = merge_exec
     id="0.98"
     #minimal size of cluster across samples, within sample is at least 2
@@ -36,7 +36,7 @@ class Assigner:
     CM = 'LTPs128_SSU_bacteria_mask.cm'
     # param build tree
     treebuild_exec="raxmlHPC-PTHREADS"
-    treebuildfast_exec='/home/saverio/Documenti/Cluster/Mangel/epa/bin/epa-ng'
+    treebuildfast_exec='epa-ng'
     dofasttree=True
     refTree='LTPs128_SSU_tree_bacteria.newick'
     #Name convention
